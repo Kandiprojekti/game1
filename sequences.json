@@ -6,7 +6,7 @@
                 "id": "intro_1",
                 "show_time": 4000,
                 "text": {
-                    "text": "Lähdinpä reissulle Australiaan."
+                    "text": "Äidillä on tuberkuloosi."
                 }
             }
         ],
@@ -16,7 +16,7 @@
         "slides": [
             {
                 "do_fade": true,
-                "id": "outro0",
+                "id": "outro_1",
                 "show_time": 4000,
                 "imageSrc": "images/end_picture.png"
             }

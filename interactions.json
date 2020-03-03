@@ -1,1 +1,454 @@
-{}
+{
+	"ampari": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "ampari", "string": "examine"}
+			}
+		]
+	},
+	"kynttila": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "kynttila", "string": "examine"}
+			}
+		]
+	},
+	"liha": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha", "string": "examine"}
+			},
+			{
+				"command": "remove_object",
+				"object": "liha"
+			},
+			{
+				"command": "inventory_add",
+				"item": "liha_item"
+			}
+		]
+	},
+	"liha_item": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "examine"}
+			}
+		],
+		"koira": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_koira"}
+			},
+			{
+				"command": "remove_object",
+				"object": "koira"
+			},
+			{
+				"command": "inventory_remove",
+				"item": "liha_item"
+			},
+			{
+				"command": "add_object",
+				"object": "laakekauppa_ovi_auki"
+			}
+		],
+		"ampari": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_ampari"}
+			}
+		],
+		"kynttila": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_kynttila"}
+			}
+		],
+		"taulu": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_taulu"}
+			}
+		],
+		"purkki": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_purkki"}
+			}
+		],
+		"tikkaat": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_tikkaat"}
+			}
+		],
+		"sanky": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_aiti"}
+			}
+		],
+		"kellari_ovi": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_kellari_ovi"}
+			}
+		],
+		"laakekauppa_ovi_kiinni": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "liha_item", "string": "to_laakekauppa_ovi"}
+			}
+		]
+	},
+	"kellari_ovi": {
+		"click": [
+			{
+				"command": "do_transition",
+				"destination": "katu"	
+			},
+			{
+                "command": "monologue",
+                "textkey": {"object": "katu", "string": "start"},
+                "timeout": 1000
+            }
+		]
+	},
+	"purkki": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "purkki", "string": "examine"}
+			}
+		]
+	},
+	"sanky": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "sanky", "string": "examine"}
+			},
+			{
+                "command": "play_character_animation",
+                "animation": "panic",
+                "length": 6000
+			}
+		]
+	},
+	"taulu": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "taulu", "string": "examine"}
+			}
+		]
+	},
+	"tikkaat": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "tikkaat", "string": "examine"}
+			}
+		]
+	},
+	"nuoli1": {
+		"click": [
+			{
+				"command": "play_sequence",
+				"sequence": "outro",
+				"monologue": "false"
+			},
+			{
+				"command": "play_ending",
+				"ending": "end_layer",
+				"timeout": 4700
+			}
+		]
+	},
+	"koira": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "koira", "string": "examine"}
+			}
+		]
+
+	},
+	"laakekauppa_ovi_kiinni": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laakekauppa_ovi_kiinni", "string": "examine"}
+			}
+		]
+	},
+	"laakekauppa_ovi_auki": {
+		"click": [
+			{
+				"command": "do_transition",
+				"destination": "laakekauppa"	
+			},
+			{
+                "command": "monologue",
+                "textkey": {"object": "laakekauppa", "string": "start"},
+                "timeout": 1000
+            }
+		]
+	},
+	"nuoli2": {
+		"click": [
+			{
+				"command": "do_transition",
+				"destination": "kellari"
+			}
+		]
+	},
+	"laakekaappi": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laakekaappi", "string": "examine"}
+			}
+		]
+	},
+	"laakekaappi2": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laakekaappi2", "string": "examine"}
+			}
+		]
+	},
+	"laakekaappi_auki": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laakekaappi_auki", "string": "examine"}
+			}
+		]
+	},
+	"laakekaappi2_auki": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laakekaappi2_auki", "string": "examine"}
+			}
+		]
+	},
+	"avain": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain", "string": "examine"}
+			},
+			{
+				"command": "remove_object",
+				"object": "avain"
+			},
+			{
+				"command": "inventory_add",
+				"item": "avain_item"
+			}
+		]
+	},
+	"avain_item": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "examine"}
+			}
+		],
+		"laakekaappi": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laakekaappi_auki", "string": "examine"}
+			},
+			{
+				"command": "remove_object",
+				"object": "laakekaappi"
+			},
+			{
+				"command": "add_object",
+				"object": "laakekaappi_auki"
+			}
+		],
+		"laakekaappi2": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laakekaappi2_auki", "string": "examine"}
+			},
+			{
+				"command": "remove_object",
+				"object": "laakekaappi2"
+			},
+			{
+				"command": "add_object",
+				"object": "laakekaappi2_auki"
+			},
+			{
+				"command": "add_object",
+				"object": "laake"
+			}
+		],
+		"ampari": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_ampari"}
+			}
+		],
+		"kynttila": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_kynttila"}
+			}
+		],
+		"taulu": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_taulu"}
+			}
+		],
+		"purkki": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_purkki"}
+			}
+		],
+		"tikkaat": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_tikkaat"}
+			}
+		],
+		"sanky": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_aiti"}
+			}
+		],
+		"kellari_ovi": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_kellari_ovi"}
+			}
+		],
+		"laakekauppa_ovi_kiinni": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_laakekauppaovi_auki"}
+			}
+		],
+		"laakekaappi_auki": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_kaappi"}
+			}
+		],
+		"laakekaappi2_auki": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "avain_item", "string": "to_kaappi"}
+			}
+		]
+	},
+	"laake": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake", "string": "examine"}
+			},
+			{
+				"command": "remove_object",
+				"object": "laake"
+			},
+			{
+				"command": "inventory_add",
+				"item": "laake_item"
+			}
+		]
+	},
+	"laake_item": {
+		"click": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "examine"}
+			}
+		],
+		"sanky": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_aiti"}
+			},
+			{
+				"command": "add_object",
+				"object": "nuoli1"
+			}
+		],
+		"ampari": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_ampari"}
+			}
+		],
+		"kynttila": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_kynttila"}
+			}
+		],
+		"taulu": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_taulu"}
+			}
+		],
+		"purkki": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_purkki"}
+			}
+		],
+		"tikkaat": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_tikkaat"}
+			}
+		],
+		"kellari_ovi": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_kellari_ovi"}
+			}
+		],
+		"laakekauppa_ovi_kiinni": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_laakekauppaovi_auki"}
+			}
+		],
+		"laakekaappi_auki": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_kaappi"}
+			}
+		],
+		"laakekaappi2_auki": [
+			{
+				"command": "monologue",
+				"textkey": {"object": "laake_item", "string": "to_kaappi"}
+			}
+		]
+	},
+	"nuoli3": {
+		"click": [
+			{
+				"command": "do_transition",
+				"destination": "katu"
+			}
+		]
+	}
+}

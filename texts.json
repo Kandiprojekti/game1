@@ -4,5 +4,119 @@
     },
     "default.pickable": {
         "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
+	},
+	"start_credits": {
+		"name": "start_credits",
+		"examine": "Tämän pelin suunnittelivat Steinerkoulun kahdeksasluokkalaiset."
+	},
+	"intro": {
+		"examine": "Äidillä on tuberkuloosi ja hänelle pitäisi löytää lääke."
+	},
+	"ampari": {
+		"name": "ämpäri",
+		"examine": "Pesuämpäri, taisin unohtaa pestä jalat."
+	},
+	"kynttila": {
+		"name": "lyhty",
+		"examine": "Metallilyhty, kumpa olisi vielä tulitikkuja."
+	},
+	"liha": {
+		"name": "porsaspihvi",
+		"examine": "Homeinen porsaspihvi. Minä en halua syödä sitä, mutta ehkä joku eläin haluaisi sen."
+	},
+	"liha_item": {
+		"name": "porsaspihvi",
+		"examine": "Homeinen porsaspihvi. Minä en halua syödä sitä, mutta ehkä joku eläin haluaisi sen.",
+		"to_koira": "Nyt pääsen lääkekauppaan.",
+		"to_aiti": "Äiti ei halua tätä.",
+		"to_ampari": "Ei tätä kannata laittaa ämpäriin.",
+		"to_kynttila": "Pihvi ei voi sytyttää lyhtyä.",
+		"to_purkki": "Ei tämä mahdu purkkiin.",
+		"to_tikkaat": "Ei pihvi osaa kiivetä.",
+		"to_taulu": "Ei tämä pihvi maalausta paranna.",
+		"to_kellari_ovi": "Ehkä voisin viedä pihvin pois täältä.",
+		"to_laakekauppa_ovi": "En pääse ovelle, koska koira on tiellä."
+	},
+	"purkki": {
+		"name": "purkki",
+		"examine": "Ruostunut papupurkki. Täällä ei taida olla enää mitään syötävää."
+	},
+	"sanky": {
+		"name": "äiti",
+		"examine": "Äidillä on tuberkuloosi ja minun pitää löytää hänelle lääke."
+	},
+	"taulu": {
+		"name": "taulu",
+		"examine": "Tuhruinen maaliräjähdys. Tätä on turha yrittääkään myydä."
+	},
+	"tikkaat": {
+		"name": "tikkaat",
+		"examine": "Tammitikkaat, jotka esi-isämme teki 1500-luvulla."
+	},
+	"katu": {
+		"start": "Täältä pääsen lääkekauppaan."
+	},
+	"koira": {
+		"name": "koira",
+		"examine": "Tuo koira näyttää nälkäiseltä, meidän täytyy varmaan harhauttaa sitä."
+	},
+	"laakekauppa_ovi_kiinni": {
+		"name": "lääkekaupan ovi",
+		"examine": "En pääse ovesta sisään, koska koira on sen edessä."
+	},
+	"laakekauppa": {
+		"start": "Täältä voin löytää lääkkeen."
+	},
+	"avain": {
+		"name": "avain",
+		"examine": "Nyt saan avattua lääkekaapin."
+	},
+	"avain_item": {
+		"name": "avain",
+		"examine": "Tällä saan avattua lääkekaapin.",
+		"to_aiti": "Avaimesta ei ole äidille mitään hyötyä.",
+		"to_purkki": "Ei tätä avainta kannata purkkiin jättää.",
+		"to_ampari": "Ei tätä avainta kannata laittaa ämpäriin.",
+		"to_kynttila": "Avaimella ei voi sytyttää lyhtyä.",
+		"to_tikkaat": "Avain ei osaa kiivetä tikkaita.",
+		"to_taulu": "Taulun takana ei ole salaista kaappia, jonka voisin avata tällä avaimella.",
+		"to_kellari_ovi": "Tästä pääsee kulkemaan ilman avainta.",
+		"to_laakekauppaovi_auki": "Tämän oven avaamiseen ei onneksi tarvinnut avainta.",
+		"to_kaappi": "Tämä kaappi on jo auki."
+	},
+	"laakekaappi": {
+		"name": "lääkekaappi",
+		"examine": "Kaappi on lukossa."
+	},
+	"laakekaappi2": {
+		"name": "lääkekaappi",
+		"examine": "Kaappi on lukossa."
+	},
+	"laakekaappi_auki": {
+		"name": "lääkekaappi",
+		"examine": "Voi ei! Tämä kaappi näyttäisi olevan tyhjä. Ehkä löydän lääkkeitä muualta."
+	},
+	"laakekaappi2_auki": {
+		"name": "lääkekaappi",
+		"examine": "Täällähän se on."
+	},
+	"laake": {
+		"name": "lääke",
+		"examine": "Nyt pitää palata äidin luokse."
+	},
+	"laake_item": {
+		"name": "lääke",
+		"examine": "Nyt pitää palata äidin luokse.",
+		"to_aiti": "Nyt äiti paranee.",
+		"to_purkki": "Lääkettä ei kannata laittaa purkkiin.",
+		"to_ampari": "Lääkettä ei kannata laittaa ämpäriin.",
+		"to_taulu": "Lääke ei paranna taulua.",
+		"to_kynttila": "Lääkkeellä ei voi sytyttää lyhtyä.",
+		"to_tikkaat": "Lääke ei osaa kiivetä tikkaita.",
+		"to_kellari_ovi": "Tämä lääke piti antaa äidille eikä viedä pois.",
+		"to_laakekauppaovi_auki": "Ei tätä lääkettä kannata viedä takaisin.",
+		"to_kaappi": "Ei tätä lääkettä kannata laittaa takaisin kaappiin."
+	}
 }
+
 
